@@ -1,40 +1,8 @@
+#This is a guess-the-number game.
 
-
-# import random
-# count=0
-# while count<3:
-#         computer_number = random.randrange(1, 2)
-#         user_number = int(input('Please type a number: '))
-#
-#         if user_number>2:
-#                 print('Invalid guess number')
-#                 print('Please try! again')
-#         elif user_number==count:
-#                 print('game over')
-#         elif user_number > computer_number:
-#                 print('User guess number is', user_number)
-#                 print('Computer guess number is', computer_number)
-#                 print('"Have one more try".User guess number is too high')
-#         elif user_number < computer_number:
-#                 print('User guess number is', user_number)
-#                 print('Computer guess number is', computer_number)
-#                 print('"Have one more try".User guess number is too low')
-#         else:
-#                 print('User guess number is', user_number)
-#                 print('Computer guess number is', computer_number)
-#                 print('you guessed it')
-#                 break
-#         count+=1
-#         print('it tooks', count, 'guesse\'s')
-
-
-
-#This is a guess the number game.
 import random
 
-
 print("Hello!")
-
 
 myName=input("Enter Your name: ")
 print("\nWelcome, " + myName)
